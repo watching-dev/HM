@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/python,react,macos,django
-# Edit at https://www.toptal.com/developers/gitignore?templates=python,react,macos,django
+# Created by https://www.toptal.com/developers/gitignore/api/macos,python,django,react
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,python,django,react
 
 ### Django ###
 *.log
@@ -31,7 +31,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+# NomadCoders ## lib/
 lib64/
 parts/
 sdist/
@@ -311,4 +311,30 @@ psd
 thumb
 sketch
 
-# End of https://www.toptal.com/developers/gitignore/api/python,react,macos,django
+# End of https://www.toptal.com/developers/gitignore/api/macos,python,django,react
+
+# NomadCoders ###
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
