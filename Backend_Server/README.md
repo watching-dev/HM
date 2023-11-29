@@ -42,4 +42,8 @@
 
 > > (모델 설정 후 앱에 모델 등록) -> config -> settings.py -> INSTALLED_APPS -> 모델명.apps.모델명Config 입력 후 저장하면 인식 됨
 
+> > > (모델 만들면 마이그레이션 해야함) -> python manage.py makemigrations -> python manage.py migrate
+
+> > > > admin 은 admin 페이지에서 보여질것 들 설정
+
 ---
