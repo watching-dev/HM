@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "hm-backend"
+name = "backend-server"
 version = "0.1.0"
 description = ""
 authors = ["watching-dev <coderefactoring90@gmail.com>"]

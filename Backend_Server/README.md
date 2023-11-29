@@ -37,3 +37,9 @@
 > > > > > > > > > > > > > > (서버 시작 - poetry shell 로 가상환경에서 시작해야함) -> python manage.py runserver
 
 ---
+
+> (애플리케이션 시작\_houses 이름의 앱 시작) -> python manage.py startapp houses
+
+> > (모델 설정 후 앱에 모델 등록) -> config -> settings.py -> INSTALLED_APPS -> 모델명.apps.모델명Config 입력 후 저장하면 인식 됨
+
+---
